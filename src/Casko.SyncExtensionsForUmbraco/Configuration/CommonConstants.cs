@@ -1,4 +1,4 @@
-namespace Casko.SyncExtensionForUmbraco.Configuration;
+namespace Casko.SyncExtensionsForUmbraco.Configuration;
 
 internal static class Constants
 {

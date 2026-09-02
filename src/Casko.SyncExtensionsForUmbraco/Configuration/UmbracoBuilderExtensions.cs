@@ -1,9 +1,9 @@
-using Casko.SyncExtensionForUmbraco.ServerRoleAccessors;
+using Casko.SyncExtensionsForUmbraco.ServerRoleAccessors;
 using Umbraco.Cms.Core.DependencyInjection;
 using Umbraco.Cms.Core.Sync;
 using Umbraco.Cms.Infrastructure.DependencyInjection;
 
-namespace Casko.SyncExtensionForUmbraco.Configuration;
+namespace Casko.SyncExtensionsForUmbraco.Configuration;
 
 public record ServerRoleNames(
     string Subscriber = Constants.SubscriberServerRoleName,

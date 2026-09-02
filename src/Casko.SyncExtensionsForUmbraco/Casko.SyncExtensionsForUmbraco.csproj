@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <Product>Casko.SyncExtensionsForUmbraco</Product>
+        <PackageId>Casko.SyncExtensionsForUmbraco</PackageId>
+        <Title>Sync Extensions for Umbraco</Title>
+        <Description>Server-role configuration helpers for load-balanced Umbraco applications.</Description>
+        <PackageTags>umbraco;umbraco-cms;load-balancing;server-role;synchronization</PackageTags>
+        <Authors>Casper Korsgaard</Authors>
+        <Copyright>$([System.DateTime]::UtcNow.ToString(`yyyy`)) © Casper Korsgaard</Copyright>
+        <PackageProjectUrl>https://github.com/hallojoe/sync-extensions-for-umbraco</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/hallojoe/sync-extensions-for-umbraco</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <IsPackable>true</IsPackable>
+        <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    </ItemGroup>
+    
+    <ItemGroup>
+        <PackageReference Include="Umbraco.Cms.Core" />
+        <PackageReference Include="Umbraco.Cms.Infrastructure" />
+    </ItemGroup>
+    
+</Project>
