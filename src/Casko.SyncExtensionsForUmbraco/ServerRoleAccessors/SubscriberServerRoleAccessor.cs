@@ -1,6 +1,6 @@
 using Umbraco.Cms.Core.Sync;
 
-namespace Casko.SyncExtensionForUmbraco.ServerRoleAccessors;
+namespace Casko.SyncExtensionsForUmbraco.ServerRoleAccessors;
 
 public class SubscriberServerRoleAccessor : IServerRoleAccessor
 {

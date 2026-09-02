@@ -9,12 +9,12 @@ on:
       - develop
       - main
 
-permissions:
+permissions: 
   contents: read
 
 env:
   DOTNET_VERSION: 10.0.x
-  PROJECT_FILE: src/Casko.SyncExtensionForUmbraco/Casko.SyncExtensionForUmbraco.csproj
+  PROJECT_FILE: src/Casko.SyncExtensionsForUmbraco/Casko.SyncExtensionsForUmbraco.csproj
 
 jobs:
   build:
