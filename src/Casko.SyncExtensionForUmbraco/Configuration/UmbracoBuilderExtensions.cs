@@ -1,7 +1,7 @@
 using Casko.SyncExtensionForUmbraco.ServerRoleAccessors;
+using Umbraco.Cms.Core.DependencyInjection;
 using Umbraco.Cms.Core.Sync;
 using Umbraco.Cms.Infrastructure.DependencyInjection;
-using SingleServerRoleAccessor = Casko.SyncExtensionForUmbraco.ServerRoleAccessors.SingleServerRoleAccessor;
 
 namespace Casko.SyncExtensionForUmbraco.Configuration;
 
